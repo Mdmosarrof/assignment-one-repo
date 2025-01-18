@@ -84,6 +84,9 @@ header img{
 .bgcolor03{
   background-color: #F7EBCF;
 }
+#bgcolor04{
+  background-color: rgb(106, 230, 172);
+}
 /* vision section styles */
 
 .vision-section{
@@ -150,7 +153,6 @@ header img{
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  margin: ;
   gap: 32px;
   padding: 48px 48px;
 }
@@ -177,4 +179,49 @@ header img{
   margin-top: 12px;
   margin-bottom: 12px;
 }
-
+/* donate section styles */
+.donate-section{
+  max-width: 1280px;
+  text-align: center;
+  margin: 80px auto;
+  
+}
+.donate-title{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.donate-description{
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.donate-spacifically{
+  
+  /* display: inline-block; */
+  /* background-color: #b52727; */
+}
+.donate-spacifically span{
+  margin: 0px 24px;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  background-color: #fff;
+  /* padding: 40px 40px; */
+  padding: 40px;
+  border-radius: 16px;
+  margin-top: 32px 104px;
+  
+}
+.donate-section input{
+  background-color: rgb(255, 255, 255);
+  display: inline;
+  width: 1032px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
+  padding: 20px 40px;
+  text-align: center;
+  border: none;
+}
